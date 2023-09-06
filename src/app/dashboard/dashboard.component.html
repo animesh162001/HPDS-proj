@@ -1,0 +1,26 @@
+
+<div class="dashboard">
+    <h2>Dashboard</h2>
+    <p>Total Files Uploaded: {{ files.length }}</p>
+
+    <div class="search-container">
+        <input
+          type="text"
+          [(ngModel)]="searchQuery"
+          placeholder="Search by title, tags, or metadata"
+          class="search-input"
+        />
+        <button (click)="searchFiles()" class="search-button">Search</button>
+      </div>
+  
+    <div class="file-list">
+      <div *ngFor="let file of files" class="file-item">
+        <span class="file-name">{{ file.name }}</span>
+        <span class="file-size">{{ formatFileSize(file.size) }}</span>
+        <button (click)="onDeleteFile(file)">Delete</button>
+        <input type="file" (change)="onUpdateFileSelected($event, file)">
+        <button (click)="updateFile(file)">Update</button>
+      </div>
+    </div>
+  </div>
+  

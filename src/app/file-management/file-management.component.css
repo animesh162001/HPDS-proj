@@ -1,0 +1,76 @@
+.file-management {
+    padding: 20px;
+  }
+  
+  .file-item {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+
+
+  /* Style the file management section */
+.file-management {
+    padding: 20px;
+    background-color: #f5f5f5; /* Background color for the file management section */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    text-align: center; /* Center-align text and buttons */
+  }
+  
+  /* Style each file item */
+  .file-item {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #fff; /* Background color for file items */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow to file items */
+    transition: transform 0.2s ease-in-out; /* Add a smooth transformation transition */
+  }
+  
+  /* Enlarge the file item on hover */
+  .file-item:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Style the buttons */
+  button {
+    margin-left: 10px;
+    background-color: #007bff; /* Blue background color for buttons */
+    color: #fff; /* White text color for buttons */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transitions on hover */
+  }
+  
+  /* Darker blue background color on button hover */
+  button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover */
+  }
+  
+
+  .dashboard-button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Darker blue background color on button hover */
+  .dashboard-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }

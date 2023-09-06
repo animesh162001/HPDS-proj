@@ -1,0 +1,66 @@
+
+.card {
+    height: auto;
+    border: 0.5px solid rgb(192, 186, 186);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    max-width: 38rem;
+    margin: auto;
+    text-align: center; /* Center-align card content */
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card h4 {
+    color: #fff; /* Change the text color to white */
+  }
+  
+  .form-label {
+    color: #fff; /* Change label text color to white */
+  }
+  
+  .form-control {
+    background-color: #333; /* Change input background color */
+    color: #fff; /* Change input text color */
+    border: 1px solid #555; /* Change input border color */
+  }
+  
+  .form-control:focus {
+    border-color: #888; /* Change input border color when focused */
+  }
+  
+  .alert.alert-danger {
+    background-color: #d9534f; /* Change danger alert background color */
+    color: #fff; /* Change danger alert text color */
+    border: 1px solid #b52b27; /* Change danger alert border color */
+  }
+  
+  .btn-success {
+    background-color: #5bc0de; /* Change success button background color */
+    border-color: #46b8da; /* Change success button border color */
+    color: #fff; /* Change success button text color */
+  }
+  
+  .btn-outline-light {
+    border-color: #fff; /* Change outline button border color */
+    color: #fff; /* Change outline button text color */
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #fff; /* Change outline button background color on hover */
+    color: #000; /* Change outline button text color on hover */
+  }
+  
+  /* Center-align the sign-up link */
+  .btn-outline-light.router-link-active {
+    text-align: center;
+  }
+  

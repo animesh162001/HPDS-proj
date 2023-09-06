@@ -1,0 +1,56 @@
+
+.card {
+  border: 1px solid #ddd; /* Add a border with a light gray color */
+  border-radius: 5px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  padding: 20px; /* Add some padding for content spacing */
+  background-color: #f5f5f5; /* Set background color for the card */
+  text-align: center; /* Center-align card content */
+  max-width: 300px; /* Limit card width for readability */
+  margin: 0 auto; /* Center the card horizontally */
+  position: relative;
+}
+
+.card h4 {
+  color: #333;
+  font-size: 1.5rem; /* Increase font size for the heading */
+  margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+.card hr {
+  border-color: #333;
+}
+
+.card button {
+  width: 100%;
+  background-color: #007bff; /* Blue background color for the "Log In" button */
+  color: #fff; /* White text color for the "Log In" button */
+  border: none; /* Remove button border */
+  padding: 10px; /* Add padding for button appearance */
+  font-weight: bold; /* Bold font for the button text */
+  border-radius: 5px; /* Add rounded corners for the button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.2s; /* Smooth background color transition on hover */
+}
+
+.card button:hover {
+  background-color: #0056b3; /* Darker blue on button hover */
+}
+
+.card a {
+  margin-top: 20px; /* Increase top margin for the link */
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color: #007bff; /* Blue color for the link */
+  font-weight: bold; /* Bold font for the link */
+}
+
+.card a:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+ 
+
+
+ 
